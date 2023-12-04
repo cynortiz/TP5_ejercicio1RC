@@ -14,7 +14,7 @@ function verificarNumero() {
   const numeroIngresado = parseInt(document.getElementById("numeroIngresado").value);
 
   if (isNaN(numeroIngresado)) {
-    alert("Por favor, ingresa un número válido.");
+    alert("Ingresá un número del 1 al 10");
     return;
   }
 
