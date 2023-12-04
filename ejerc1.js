@@ -7,7 +7,7 @@ function comenzarJuego() {
 }
 
 function generarNumeroAleatorio() {
-  return Math.floor(Math.random() * 100) + 1; // Número aleatorio entre 1 y 100
+  return Math.floor(Math.random() * 10) + 1; // numero aleatorio entre 1 y 10
 }
 
 function verificarNumero() {
