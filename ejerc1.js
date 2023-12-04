@@ -2,7 +2,7 @@ let numeroMagico;
 
 function comenzarJuego() {
   numeroMagico = generarNumeroAleatorio();
-  alert(`Número mágico generado. ¡Adivina el número!`);
+  alert(`¡Adivina el número! (del 1 al 10)`);
   document.getElementById("juego").style.display = "block";
 }
 
@@ -14,7 +14,7 @@ function verificarNumero() {
   const numeroIngresado = parseInt(document.getElementById("numeroIngresado").value);
 
   if (isNaN(numeroIngresado)) {
-    alert("Ingresá un número del 1 al 10");
+    alert("Por favor, ingresa un número válido.");
     return;
   }
 
